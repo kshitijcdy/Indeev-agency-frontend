@@ -31,7 +31,7 @@ const Parallax = ({ type }) => {
       <motion.div className="planets" style={{y:yBg,
         backgroundImage:`url(${type==="services"?"/planets.png":"/sun.png"})`
       }} ></motion.div>
-      <motion.div style={{xyBg}}  className="stars"></motion.div>
+      <motion.div style={{x:yBg}}  className="stars"></motion.div>
     </div>
   );
 };
