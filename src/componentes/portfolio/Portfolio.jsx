@@ -6,25 +6,25 @@ const items = [
   {
     id: 1,
     title: "Crypto Exchange",
-    img: "https://blockchain.oodles.io/wp-content/uploads/Cryptocurrency-Exchange-Development-3.jpg",
+    img: "./Crypto.jpg",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi minima placeat non magnam sit, cupiditate fuga architecto corporis. Quos, consequuntur.",
   },
   {
     id: 2,
     title: "Mobile Applications",
-    img: "https://blockchain.oodles.io/wp-content/uploads/Cryptocurrency-Exchange-Development-3.jpg",
+    img: "./mobApp.png",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi minima placeat non magnam sit, cupiditate fuga architecto corporis. Quos, consequuntur.",
   },
   {
     id: 3,
     title: "ERP Tools",
-    img: "https://blockchain.oodles.io/wp-content/uploads/Cryptocurrency-Exchange-Development-3.jpg",
+    img: "./erp.png",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi minima placeat non magnam sit, cupiditate fuga architecto corporis. Quos, consequuntur.",
   },
   {
     id: 4,
     title: "Brand Sites",
-    img: "https://blockchain.oodles.io/wp-content/uploads/Cryptocurrency-Exchange-Development-3.jpg",
+    img: "./dev.jpg",
     desc: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi minima placeat non magnam sit, cupiditate fuga architecto corporis. Quos, consequuntur.",
   },
 ];
