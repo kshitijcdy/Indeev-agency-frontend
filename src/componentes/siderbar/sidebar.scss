@@ -1,4 +1,4 @@
-@import "../../app.scss";
+@use "../../app.scss" as *;
 
 
 .sidebar {
@@ -61,7 +61,7 @@
         // color: red;
         cursor: pointer;
 
-       
+
 
     }
 }

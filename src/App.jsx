@@ -1,4 +1,4 @@
-import "./app.scss";
+import "./App.scss";
 import Hero from "./componentes/hero/Hero";
 import Navbar from "./componentes/navbar/navbar";
 import Test from "./componentes/Test";
