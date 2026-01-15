@@ -4,6 +4,8 @@ import { motion, useInView } from "framer-motion";
 
 import emailjs from "@emailjs/browser";
 
+const isMobile = window.innerWidth < 738;
+
 const variants = {
   initial: {
     y: 500,
@@ -103,7 +105,7 @@ export const Contact = () => {
         <motion.form
           ref={formRef}
           onSubmit={sendEmail}
-          initial={{ opacity: 0 }}
+          initial={{ opacity: isMobile ? 1 : 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
