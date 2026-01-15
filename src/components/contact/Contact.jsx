@@ -116,8 +116,7 @@ export const Contact = () => {
             placeholder="Message"
             name="message"
           />
-          <button>Submit</button>
-        </motion.form>
+          <motion.button whileTap={{backgroundColor:"darkorange"}}>Submit</motion.button >        </motion.form>
       </div>
     </motion.div>
   );
